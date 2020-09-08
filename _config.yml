@@ -32,6 +32,10 @@ theme: jekyll-dash
 
 plugins:
   - liquid-md5
-
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll/tagging
+  
 avatar_source: github
 github_username: VedantParanjape
