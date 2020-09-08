@@ -14,7 +14,7 @@
 <meta property="og:url" content="http://localhost:4000/atom.xml" />
 <meta property="og:site_name" content="ve0x10" />
 <script type="application/ld+json">
-{"@type":"WebPage","author":{"@type":"Person","name":"Vedant Paranjape"},"url":"http://localhost:4000/atom.xml","description":"Hi there, I am Vedant and I love tinkering with embedded devices. I am doing under graduation in Electronics engineering. My Interests are Programming, Robotics and Embedded systems.","headline":"ve0x10","@context":"https://schema.org"}</script>
+{"@type":"WebPage","headline":"ve0x10","author":{"@type":"Person","name":"Vedant Paranjape"},"url":"http://localhost:4000/atom.xml","description":"Hi there, I am Vedant and I love tinkering with embedded devices. I am doing under graduation in Electronics engineering. My Interests are Programming, Robotics and Embedded systems.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="icon" type="image/png" href="/assets/favicon.png" /><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="ve0x10" /></head>
@@ -34,7 +34,7 @@
  <title>ve0x10</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-09-08T12:10:14+05:30</updated>
+ <updated>2020-09-08T12:21:34+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
