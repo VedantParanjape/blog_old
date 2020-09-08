@@ -1,0 +1,38 @@
+title: ve0x10
+url: https://ve0x10.me/blog
+author: Vedant Paranjape
+description: > 
+  Hi there, I am Vedant and I love tinkering with embedded devices. I am doing under graduation in Electronics engineering. My Interests are Programming, Robotics and Embedded systems.
+show_excerpts: false # set to true to show excerpts on the homepage
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+tag_permalink_style: pretty
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+# jekyll-dash date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+dash:
+  date_format: "%d %b %Y"
+
+  # generate social links in footer
+  # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
+  social_links:
+    - url: https://www.linkedin.com/in/vedantp16/
+      icon: linkedin
+      color: blue
+    - url: https://github.com/VedantParanjape
+      icon: github-square
+      color: yellow
+
+# Build settings
+theme: jekyll-dash
+
+plugins:
+  - liquid-md5
+  - jekyll/tagging
+
+avatar_source: github
+github_username: VedantParanjape

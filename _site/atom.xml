@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>ve0x10 | Hi there, I am Vedant and I love tinkering with embedded devices. I am doing under graduation in Electronics engineering. My Interests are Programming, Robotics and Embedded systems.</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="ve0x10" />
+<meta name="author" content="Vedant Paranjape" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Hi there, I am Vedant and I love tinkering with embedded devices. I am doing under graduation in Electronics engineering. My Interests are Programming, Robotics and Embedded systems." />
+<meta property="og:description" content="Hi there, I am Vedant and I love tinkering with embedded devices. I am doing under graduation in Electronics engineering. My Interests are Programming, Robotics and Embedded systems." />
+<link rel="canonical" href="http://localhost:4000/atom.xml" />
+<meta property="og:url" content="http://localhost:4000/atom.xml" />
+<meta property="og:site_name" content="ve0x10" />
+<script type="application/ld+json">
+{"@type":"WebPage","author":{"@type":"Person","name":"Vedant Paranjape"},"url":"http://localhost:4000/atom.xml","description":"Hi there, I am Vedant and I love tinkering with embedded devices. I am doing under graduation in Electronics engineering. My Interests are Programming, Robotics and Embedded systems.","headline":"ve0x10","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" type="image/png" href="/assets/favicon.png" /><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="ve0x10" /></head>
+<body><div class="site-header">
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/">ve0x10<b class="command_prompt"></b><b class="blinking_cursor">_</b></a>
+    <span class="social_links">
+        <a class="color-blue-hover" href="https://www.linkedin.com/in/vedantp16/"><i class="fab fa-linkedin"></i></a><a class="color-yellow-hover" href="https://github.com/VedantParanjape"><i class="fab fa-github-square"></i></a>
+    </span>
+  </div>
+</div>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>ve0x10</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2020-09-08T12:10:14+05:30</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name></name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>New blog</title>
+   <link href="http://localhost:4000/2020/09/08/new-blog.html"/>
+   <updated>2020-09-08T00:00:00+05:30</updated>
+   <id>http://localhost:4000/2020/09/08/new-blog</id>
+   <content type="html">&lt;p&gt;After spending days and days searching for a jekyll theme for my blog, I finally found an amazing theme. So, here it is, start of my first blog.&lt;/p&gt;
+
+&lt;p&gt;Sounds interesting? Let’s see what the future holds. See you!&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
+
+
+
+      </div>
+    </main><footer class="site-footer">
+  <div class="wrapper">
+    <div class="credits"><a href="https://github.com/bitbrain/jekyll-dash">dash</a> theme for Jekyll by <a href="https://github.com/bitbrain">bitbrain</a> made with <i class="fas fa-heart"></i><div class="toggleWrapper">
+    <input type="checkbox" class="dn" id="theme-toggle" onclick="modeSwitcher()" checked />
+    <label for="theme-toggle" class="toggle">
+    <span class="toggle__handler">
+      <span class="crater crater--1"></span>
+      <span class="crater crater--2"></span>
+      <span class="crater crater--3"></span>
+    </span>
+        <span class="star star--1"></span>
+        <span class="star star--2"></span>
+        <span class="star star--3"></span>
+        <span class="star star--4"></span>
+        <span class="star star--5"></span>
+        <span class="star star--6"></span>
+    </label>
+</div>
+<script type="text/javascript">
+const theme = localStorage.getItem('theme');
+
+if (theme === "light") {
+    document.documentElement.setAttribute('data-theme', 'light');
+} else {
+    document.documentElement.setAttribute('data-theme', 'dark');
+}
+const userPrefers = getComputedStyle(document.documentElement).getPropertyValue('content');
+
+function activateDarkTheme() {
+    document.getElementById('theme-toggle').checked = true;
+    document.documentElement.setAttribute('data-theme', 'dark');
+    document.documentElement.classList.add('theme--dark');
+    document.documentElement.classList.remove('theme--light');
+	document.getElementById("theme-toggle").className = 'light';
+	window.localStorage.setItem('theme', 'dark');
+}
+
+function activateLightTheme() {
+    document.getElementById('theme-toggle').checked = false;
+    document.documentElement.setAttribute('data-theme', 'light');
+    document.documentElement.classList.add('theme--light');
+    document.documentElement.classList.remove('theme--dark');
+	document.getElementById("theme-toggle").className = 'dark';
+	window.localStorage.setItem('theme', 'light');
+}
+
+if (theme === "dark") {
+    activateDarkTheme();
+} else if (theme === "light") {
+    activateLightTheme();
+} else if  (userPrefers === "light") {
+    activateDarkTheme();
+} else {
+    activateDarkTheme();
+}
+
+function modeSwitcher() {
+	let currentMode = document.documentElement.getAttribute('data-theme');
+	if (currentMode === "dark") {
+	    activateLightTheme();
+	} else {
+	    activateDarkTheme();
+	}
+}
+</script></div>
+  </div>
+</footer>
+
+
+<script>
+      window.FontAwesomeConfig = {
+        searchPseudoElements: true
+      }
+    </script>
+  </body>
+
+</html>
