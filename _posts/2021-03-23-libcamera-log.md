@@ -54,6 +54,6 @@ Freeing pipeline ...
 
 * Upon discussion on the IRC, I realised it was a issue with backlash, I had to somehow escape it. So changed the id to `\\_SB_.PCI0.XHC_.RHUB.HS07-7:1.0-0408:a060`, and it still didn't work. I was scratching my head at this point. After a point I realised there might be a issue due to double quotes, replaced them with single quotes and it worked then. this was the command I ran `gst-launch-1.0 libcamerasrc camera-name='\\_SB_.PCI0.XHC_.RHUB.HS07-7:1.0-0408:a060' ! videoconvert ! autovideosink`     
 
-<p align="center"><img src="/assets/gstreamer-element-working.png"></p>
+<p align="center"><img src="{{ 'assets/gstreamer-element-working.png' | relative_url }}"></p>
 
 The window shows patches of color, as I have covered the camera with a tape (yes I am paranoid), but it displays a image fine after removing the tape.
