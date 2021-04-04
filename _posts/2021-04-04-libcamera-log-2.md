@@ -12,7 +12,7 @@ description: This is a log for documenting issues/observations encountered while
 
 I used qcam as a reference. I went through it's code and figured out how exactly libcamera is interfaced with Qt Widgets to display the stream. The main driver is the QImage widget. It is repeatedly passed a buffer which holds the frames from webcam, so it updates fairly quickly (I got around 80+ fps) and appears as continuous stream of frames.
 
-![](/assets/libcamera-2/fps-snap.png)
+<p align="center"><img src="{{ '/assets/libcamera-2/fps-snap.png' | relative_url }}"></p>
 
 To give a overview of how I implemented this. Initialised libcamera as usual. Create an object of the Camera Manager, then start it. Then it looks for camera's connected to the system. Get the id of the first one that is found `cm->cameras()[0]->id()` and then use this id to acquire access to the camera.
 
@@ -225,4 +225,4 @@ return ret;
 
 So, here is how it worked !! Was lot of fun :) I have attached a screen grab of the application running below.
 
-![](/assets/libcamera-2/app-snap.png)
+<p align="center"><img src="{{ '/assets/libcamera-2/app-snap.png' | relative_url }}"></p>
