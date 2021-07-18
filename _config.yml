@@ -26,6 +26,9 @@ dash:
     - url: https://github.com/VedantParanjape
       icon: github-square
       color: yellow
+    - url: https://twitter.com/ve0x10
+      icon: twitter
+      color: indigo
 
 # Build settings
 remote_theme: bitbrain/jekyll-dash
